@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "Start": "node src/index.js",
+    "start": "node src/index.js",
     "dev": "env-cmd -f ./config/dev.env nodemon src/index.js"
   },
   "keywords": [],
@@ -13,6 +13,7 @@
   "dependencies": {
     "@sendgrid/mail": "^7.2.2",
     "bcryptjs": "^2.4.3",
+    "heroku": "^7.42.6",
     "jsonwebtoken": "^8.5.1",
     "mongodb": "^3.5.9",
     "mongoose": "^5.9.24",
